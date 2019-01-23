@@ -150,11 +150,11 @@ client.on("message", async message => {
             .setThumbnail(message.author.avatarURL)
             .setDescription(`**__برودكاست بوت | Version 1.1__ 
 
-            برودكاست عادي : ${prefix}bc
-            دعوة البوت لسيرفرك : ${prefix}invite
-            معلومات عن السيرفر : ${prefix}server
-            برودكاست للأونلاين فقط : ${prefix}bco
-            يعرض لك عدد المتبندين من سيرفرك : ${prefix}banned
+            برودكاست عادي : Kx{prefix}bc
+            دعوة البوت لسيرفرك : Kx{prefix}invite
+            معلومات عن السيرفر : Kx{prefix}server
+            برودكاست للأونلاين فقط : Kx{prefix}bco
+            يعرض لك عدد المتبندين من سيرفرك : Kx{prefix}banned
             رابط سيرفر الدعم الفني : KiRox bc 
             **`);
             message.channel.sendEmbed(help); // رابط السيرفر يعود الى سيرفر CODES .
